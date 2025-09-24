@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class ALGORITHM_3_LFCO_2025_ECASTANOS {
+public class ALGORITHM_3_LFCO_2025_EC_JC {
 
     static class PDA {
         private final Deque<Character> stack = new ArrayDeque<>();
