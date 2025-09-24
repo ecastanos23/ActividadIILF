@@ -32,61 +32,61 @@ The assignment statement was provided as part of the **Formal Languages** course
 
 ### Example Execution Output
 ### Example Output_Algorithm_1:
-String: 'aaaaabbbbb'
-String: 'ab'
-String: ''
-String: 'aabb'
-String: 'aaaabbbb'
-String: 'aab'
-String: 'aabbbb'
-String: 'bbbaaaa'
+- String: 'aaaaabbbbb'
+- String: 'ab'
+- String: ''
+- String: 'aabb'
+- String: 'aaaabbbb'
+- String: 'aab'
+- String: 'aabbbb'
+- String: 'bbbaaaa'
 
 ### Example Output_Algorithm_2:
-The string 'aaaaabbbbb' is accepted by the PDA.
-The string 'ab' is accepted by the PDA.
-The string '' is accepted by the PDA.
-The string 'aabb' is accepted by the PDA.
-The string 'aaaabbbb' is accepted by the PDA.
-The string 'aab' is rejected by the PDA.
-The string 'aabbbb' is rejected by the PDA.
-The string 'bbbaaaa' is rejected by the PDA.
+- The string 'aaaaabbbbb' is accepted by the PDA.
+- The string 'ab' is accepted by the PDA.
+- The string '' is accepted by the PDA.
+- The string 'aabb' is accepted by the PDA.
+- The string 'aaaabbbb' is accepted by the PDA.
+- The string 'aab' is rejected by the PDA.
+- The string 'aabbbb' is rejected by the PDA.
+- The string 'bbbaaaa' is rejected by the PDA.
 
 ### Example Output_Algorithm_3:
-Leftmost derivation for string 'aaaaabbbbb':
-S
-a S b
-a a S b b
-a a a S b b b
-a a a a S b b b b
-a a a a a S b b b b b
-a a a a a e b b b b b
-aaaaabbbbb
+- Leftmost derivation for string 'aaaaabbbbb':
+- S
+- a S b
+- a a S b b
+- a a a S b b b
+- a a a a S b b b b
+- a a a a a S b b b b b
+- a a a a a e b b b b b
+- aaaaabbbbb
 
-Leftmost derivation for string 'ab':
-S
-a S b
-a e b
-ab
+- Leftmost derivation for string 'ab':
+- S
+- a S b
+- a e b
+- ab
 
-Leftmost derivation for string '':
-S
-e
+- Leftmost derivation for string '':
+- S
+- e
 
-Leftmost derivation for string 'aabb':
-S
-a S b
-a a S b b
-a a e b b
-aabb
+- Leftmost derivation for string 'aabb':
+- S
+- a S b
+- a a S b b
+- a a e b b
+- aabb
 
-Leftmost derivation for string 'aaaabbbb':
-S
-a S b
-a a S b b
-a a a S b b b
-a a a a S b b b b
-a a a a e b b b b
-aaaabbbb
+- Leftmost derivation for string 'aaaabbbb':
+- S
+- a S b
+- a a S b b
+- a a a S b b b
+- a a a a S b b b b
+- a a a a e b b b b
+- aaaabbbb
 
 ---
 
