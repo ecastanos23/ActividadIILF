@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class ALGORITHM_1_LFCO_2025_ECASTANOS {
+public class ALGORITHM_1_LFCO_2025_EC_JC {
 
     public static List<String> generateTestStrings() {
         List<String> testStrings = new ArrayList<>();
