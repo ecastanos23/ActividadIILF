@@ -16,7 +16,7 @@ public class ALGORITHM_1_LFCO_2025_EC_JC {
     }
 
     public static void printTestStrings(List<String> testStrings) {
-        System.out.println("Example Output_Algorithm_1:");
+        System.out.println("Output_Algorithm_1:");
         for (String s : testStrings) {
             System.out.println("String: '" + s + "'");
         }
