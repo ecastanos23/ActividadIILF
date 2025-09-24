@@ -106,8 +106,8 @@ java Actividad2
 Kozen, Dexter C. (1997). Automata and Computability. Lecture notes referenced in the course assignment.
 
 ### Authors
-Emmanuel Castaño Sepúlveda
-Jerónimo Contreras Sierra
+Emmanuel Castaño Sepúlveda <br>
+Jerónimo Contreras Sierra <br>
 
 ### Course 
 Professor: Adolfo Andrés Castro Sánchez
