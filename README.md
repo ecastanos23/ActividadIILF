@@ -98,8 +98,11 @@ aaaabbbb <br>
 
 ### Compile
 ```bash
-javac Actividad2.java
-java Actividad2
+cd ruta/where/archives/are/located
+javac ALGORITHM_1_LFCO_2025_EC_JC.java ALGORITHM_2_LFCO_2025_EC_JC.java ALGORITHM_3_LFCO_2025_EC_JC.java
+java ALGORITHM_1_LFCO_2025_EC_JC
+java ALGORITHM_2_LFCO_2025_EC_JC
+java ALGORITHM_3_LFCO_2025_EC_JC
 ```
 
 ### Reference
