@@ -57,11 +57,11 @@ public class ALGORITHM_3_LFCO_2025_EC_JC {
     }
 
     public static void main(String[] args) {
-        List<String> testStrings = ALGORITHM_1_LFCO_2025_ECASTANOS.generateTestStrings();
+        List<String> testStrings = ALGORITHM_1_LFCO_2025_EC_JC.generateTestStrings();
         PDA pda = new PDA();
         LeftmostDerivation deriv = new LeftmostDerivation();
 
-        System.out.println("Example Output_Algorithm_3:");
+        System.out.println("Output_Algorithm_3:");
         for (String s : testStrings) {
             if (pda.run(s)) {
                 deriv.derive(s);
