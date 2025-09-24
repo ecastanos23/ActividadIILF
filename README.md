@@ -31,62 +31,63 @@ The assignment statement was provided as part of the **Formal Languages** course
 3. **Algorithm_3 – Leftmost derivations** (only for accepted strings)
 
 ### Example Execution Output
+
 ### Example Output_Algorithm_1:
-- String: 'aaaaabbbbb'
-- String: 'ab'
-- String: ''
-- String: 'aabb'
-- String: 'aaaabbbb'
-- String: 'aab'
-- String: 'aabbbb'
-- String: 'bbbaaaa'
+String: 'aaaaabbbbb' <br>
+String: 'ab' <br>
+String: '' <br>
+String: 'aabb' <br>
+String: 'aaaabbbb' <br>
+String: 'aab' <br>
+String: 'aabbbb' <br>
+String: 'bbbaaaa' <br>
 
 ### Example Output_Algorithm_2:
-- The string 'aaaaabbbbb' is accepted by the PDA.
-- The string 'ab' is accepted by the PDA.
-- The string '' is accepted by the PDA.
-- The string 'aabb' is accepted by the PDA.
-- The string 'aaaabbbb' is accepted by the PDA.
-- The string 'aab' is rejected by the PDA.
-- The string 'aabbbb' is rejected by the PDA.
-- The string 'bbbaaaa' is rejected by the PDA.
+The string 'aaaaabbbbb' is accepted by the PDA. <br>
+The string 'ab' is accepted by the PDA. <br>
+The string '' is accepted by the PDA. <br>
+The string 'aabb' is accepted by the PDA. <br>
+The string 'aaaabbbb' is accepted by the PDA. <br>
+The string 'aab' is rejected by the PDA. <br>
+The string 'aabbbb' is rejected by the PDA. <br>
+The string 'bbbaaaa' is rejected by the PDA. <br>
 
 ### Example Output_Algorithm_3:
-- Leftmost derivation for string 'aaaaabbbbb':
-- S
-- a S b
-- a a S b b
-- a a a S b b b
-- a a a a S b b b b
-- a a a a a S b b b b b
-- a a a a a e b b b b b
-- aaaaabbbbb
+Leftmost derivation for string 'aaaaabbbbb': <br>
+S <br>
+a S b <br>
+a a S b b <br>
+a a a S b b b <br>
+a a a a S b b b b <br>
+a a a a a S b b b b b <br>
+a a a a a e b b b b b <br>
+aaaaabbbbb <br>
 
-- Leftmost derivation for string 'ab':
-- S
-- a S b
-- a e b
-- ab
+Leftmost derivation for string 'ab': <br>
+S <br>
+a S b <br>
+a e b <br>
+ab <br>
 
-- Leftmost derivation for string '':
-- S
-- e
+Leftmost derivation for string '': <br>
+S <br>
+e <br>
 
-- Leftmost derivation for string 'aabb':
-- S
-- a S b
-- a a S b b
-- a a e b b
-- aabb
+Leftmost derivation for string 'aabb': <br>
+S <br>
+a S b <br>
+a a S b b <br>
+a a e b b <br>
+aabb <br>
 
-- Leftmost derivation for string 'aaaabbbb':
-- S
-- a S b
-- a a S b b
-- a a a S b b b
-- a a a a S b b b b
-- a a a a e b b b b
-- aaaabbbb
+Leftmost derivation for string 'aaaabbbb': <br>
+S <br>
+a S b <br>
+a a S b b <br>
+a a a S b b b <br>
+a a a a S b b b b <br>
+a a a a e b b b b <br>
+aaaabbbb <br>
 
 ---
 
