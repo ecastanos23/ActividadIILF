@@ -24,10 +24,10 @@ public class ALGORITHM_2_LFCO_2025_EC_JC {
     }
 
     public static void main(String[] args) {
-        List<String> testStrings = ALGORITHM_1_LFCO_2025_ECASTANOS.generateTestStrings();
+        List<String> testStrings = ALGORITHM_1_LFCO_2025_EC_JC.generateTestStrings();
         PDA pda = new PDA();
 
-        System.out.println("Example Output_Algorithm_2:");
+        System.out.println("Output_Algorithm_2:");
         for (String s : testStrings) {
             boolean isAccepted = pda.run(s);
             if (isAccepted) {
