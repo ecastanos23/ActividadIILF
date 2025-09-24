@@ -31,7 +31,7 @@ The assignment statement was provided as part of the **Formal Languages** course
 3. **Algorithm_3 – Leftmost derivations** (only for accepted strings)
 
 ### Example Execution Output
-Example Output_Algorithm_1:
+### Example Output_Algorithm_1:
 String: 'aaaaabbbbb'
 String: 'ab'
 String: ''
@@ -41,7 +41,7 @@ String: 'aab'
 String: 'aabbbb'
 String: 'bbbaaaa'
 
-Example Output_Algorithm_2:
+### Example Output_Algorithm_2:
 The string 'aaaaabbbbb' is accepted by the PDA.
 The string 'ab' is accepted by the PDA.
 The string '' is accepted by the PDA.
@@ -51,7 +51,7 @@ The string 'aab' is rejected by the PDA.
 The string 'aabbbb' is rejected by the PDA.
 The string 'bbbaaaa' is rejected by the PDA.
 
-Example Output_Algorithm_3:
+### Example Output_Algorithm_3:
 Leftmost derivation for string 'aaaaabbbbb':
 S
 a S b
